@@ -1,4 +1,4 @@
-.advantages-title {
+.advantages__item-title {
     margin-top: 0;
     margin-bottom: 10px;
     
@@ -9,7 +9,7 @@
     text-transform: uppercase;
     }
     
-    .advantages-post {
+    .advantages__item-post {
         color: $main-color;
         
         margin-top: 0;
@@ -19,11 +19,11 @@
     
         }
     
-    .advantages-list {
+    .advantages__list {
             display: flex;
             flex-wrap: wrap;
         }
-    .advantages-item{
+    .advantages__item{
         width: calc(( 100% - 90px )/4);
        margin-right: 30px;
 
@@ -33,7 +33,7 @@
        }
     }
     
-    .adventages-iconset 
+    .adventages__icon-set 
     {
         width: 270px;
         height: 120px;
@@ -43,7 +43,7 @@
         background: $button-color;
         border-radius: 4px;
     }
-    .adventage-icon {
+    .adventage__icon {
         width: 70px;
         height: 70px;
     }

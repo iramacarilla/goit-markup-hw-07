@@ -13,4 +13,20 @@
     text-align: center;
     letter-spacing: 0.06em;
     border: none;
+
+    .footer & {
+        display: flex;
+        align-items: center;
+    }
+    .blank & {
+        margin: 0 164px;
+        cursor: pointer;
+    
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+        .blank &:hover{
+            background-color: #188CE8;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
 }

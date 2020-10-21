@@ -1,5 +1,9 @@
 @import "./utils/variables";
 @import "./utils/placeholder";
+@import "./components/section-title-h2";
+@import "./base/common";
+@import "./base/section&container";
+
 @import "./components/logo";
 @import "./components/main-meny-nav";
 @import "./components/contacts";
@@ -7,3 +11,15 @@
 @import "./components/main-button";
 @import "./components/advantages";
 @import "./components/work-section";
+@import "./components/team-section";
+@import "./components/social-icons";
+@import "./components/clinents-section";
+@import "./components/footer";
+@import "./components/recall-section";
+@import "./components/subscription";
+
+@import "./components/section-portfolio-meny";
+@import "./components/secondary-btn";
+@import "./components/portfolio-gallery";
+
+@import "./components/modal-panel";

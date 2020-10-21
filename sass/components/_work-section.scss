@@ -1,6 +1,6 @@
-.section.work {
-    padding-top: 0;
-}
+//.section.work {
+ //   padding-top: 0;
+//}
 .work-list {
 display: flex;
 }
@@ -8,7 +8,7 @@ display: flex;
     position: relative;
     width: calc(( 100% - 60px )/3); 
     
-    &:nth-child(3n)
+    & :nth-child(3n)
     {
         margin-right: 30px;
     }

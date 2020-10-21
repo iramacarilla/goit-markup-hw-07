@@ -5,7 +5,16 @@
     font-weight: 700px;
     font-size: 26px;
     line-height: 1,19;
+
+    .footer & {
+        display: block;
+        margin-bottom: 20px;
+    }
 }
 .logo-element{
     color: $foot-head-color;
+
+    .footer & {
+        color: $white-color;
+    }
 }

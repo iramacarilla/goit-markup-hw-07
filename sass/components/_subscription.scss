@@ -1,0 +1,34 @@
+.sub-field {
+    display: flex;
+    margin-top: 20px;
+}
+.sub-label{
+    color: rgba( 255, 255, 255, 0.6);
+    font-size: 16px;
+}
+.sub-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+ 
+}
+.sub-input{
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+   padding-left: 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: var(--button-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+
+    &::placeholder
+{
+    color: rgba( 255, 255, 255, 0.6);
+    font-size: 16px;
+    
+}
+}
+

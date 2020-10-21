@@ -1,0 +1,20 @@
+
+.footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: $foot-head-color;
+    }
+.footer__contacts {
+        margin-right: 70px;
+    }
+    
+.address-link {
+        color: $white-color;
+    }
+.contacts__item:not(:last-child){
+        margin-bottom: 9px;
+    }
+.contacts {
+        font-style: normal;
+        line-height: 1.71;
+    }
