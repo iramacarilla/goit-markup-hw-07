@@ -1,11 +1,11 @@
 .section.team{
     background-color: $button-color;
 }
-.team-list {
+.team__list {
     display: flex;
 }
 
-.team-item{
+.team__list-members{
     margin-right: 30px;
    width: calc(( 100% - 90px )/4);
     text-align: center;
@@ -17,10 +17,10 @@
     }
 }
 
-.team-text{
+.team__describing-members{
     margin: 30px 32px;
 }
-.team-title {
+.team__name-members {
     margin-bottom: 10px;
 
     color: $titel-color;
@@ -31,7 +31,7 @@
 
     }
 
-.team-occupation {
+.team__members-occupation {
     color: $main-color;
 
     font-size: 16px;
