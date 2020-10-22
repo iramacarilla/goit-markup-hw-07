@@ -80,6 +80,10 @@ button {
   color: #FFFFFF;
 }
 
+.page-header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header.container {
   display: -webkit-box;
   display: -ms-flexbox;
